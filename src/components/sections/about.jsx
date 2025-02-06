@@ -32,13 +32,21 @@ const About = () => {
                     {/*  START ABOUT TEXT DESIGN AREA  */}
                     <div className="col-lg-7">
                         <div className="about-content-part">
-                            <SlideUp>
+                            {/* <SlideUp>
                                 <h2>
                                     Hello, I’m Gourishankar, <span>Frontend Developer</span> and UI Designer
                                     Based in India.
                                 </h2>
                                 <div className="hero-btns">
                                     <a href="#" className="theme-btn">Download CV <i><RiDownloadLine size={16} /></i></a>
+                                </div>
+                            </SlideUp> */}
+                            <SlideUp>
+                                <div className="hero-content rmb-25 text-center">
+                                    <h1>I'm <span>Gourish</span>ankar</h1>
+                                    <div className="job">
+                                        <span>Frontend Developer</span><span>React Developer</span><span>WEB Designer</span>
+                                    </div>
                                 </div>
                             </SlideUp>
                             <SlideUp>

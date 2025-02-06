@@ -1,4 +1,6 @@
-﻿/*
+﻿@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Raleway+Dots&display=swap');
+
+/*
 * ----------------------------------------------------------------------------------------
 Author       : Hridoy
 Template Name: Kane - Personal Portfolio HTML Template
@@ -49,7 +51,7 @@ Version      : 1.0
     --dark-green: #268756;
 } */
 
-:root {
+/* :root {
     --main-color: rgb(36, 139, 88);
     --heading-color: rgb(115, 196, 172);
     --primary-color: #228956;
@@ -58,12 +60,29 @@ Version      : 1.0
     --black-color: #198754;
     --border-color: rgba(103, 103, 182, 0.438);
     --button-border: rgba(103, 103, 177, 0.349);
-    --body-background: #000000;
+    --body-background: #ffebb4;
     --grey-bg: #2e2e2e87;
     --heading-stroke: #dac47b;
     --dark-green: #268756;
     --header-bg: #1e1e1e;
-}
+} */
+
+/* :root {
+    --main-color: #1DB954; 
+    --heading-color: #A3E4DB; 
+    --primary-color: #0F8A5F; 
+    --lighter-color: #A1A1A1; 
+    --subtitle-color: #8ADAB2; 
+    --black-color: #0D3B66; 
+    --border-color: rgba(255, 255, 255, 0.2); 
+    --button-border: rgba(50, 205, 50, 0.5);
+    --body-background: #121212;
+    --grey-bg: #1E1E1E;
+    --heading-stroke: #F4D03F; 
+    --dark-green: #178A50; 
+    --header-bg: #181818; 
+} */
+
 
 /* 
 :root {
@@ -95,6 +114,23 @@ Version      : 1.0
     --grey-bg: #E0E0E0;
 } */
 
+/* greee theme */
+:root {
+    --main-color: #9bcca9;
+    --heading-color: #4c726d;
+    --primary-color: #67a679;
+    --lighter-color: #a41414;
+    --subtitle-color: #454547;
+    --black-color: #0D3B66;
+    --border-color: rgb(183 226 195);
+    --button-border: rgba(50, 205, 50, 0.5);
+    --body-background: #e3ffeb;
+    --grey-bg: #e3ffeb;
+    --heading-stroke: #00ff00;
+    --dark-green: #e3ffeb;
+    --header-bg: #e3ffeb;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -109,7 +145,8 @@ body {
     font-weight: 400;
     line-height: 30px;
     font-size: 16px;
-    font-family: "Syne", sans-serif;
+    /* font-family: "Syne", sans-serif; */
+    font-family: "Doto", serif;
     overflow-x: hidden;
 
 }
@@ -143,7 +180,7 @@ h6,
 .h6,
 .accordion-item .accordion-button {
     color: var(--heading-color);
-    font-family: "Syne", sans-serif;
+    font-family: "Raleway Dots", serif;
 }
 
 h1,
@@ -961,7 +998,8 @@ html {
 }
 
 .main-header .logo img {
-    width: 80px;
+    width: 86px;
+    /* filter: invert(1); */
 }
 
 .main-header .nice-select .current {
@@ -1337,6 +1375,7 @@ html {
     display: inline-block;
     padding-right: 15px;
     margin-right: 10px;
+    font-size: 18px;
 }
 
 .hero-content .job span:last-child {
@@ -1371,12 +1410,12 @@ html {
 
 
 .about-image-part img{
-    border-radius: 10px;
+    border-radius: 50%;
 }
 
 .about-image-part h2 {
     margin-top: 30px;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .about-content-part h2 {
@@ -1449,7 +1488,7 @@ html {
 }
 
 .about-btn h6 {
-    font-weight: 400;
+    font-weight: 600;
     color: rgb(119, 119, 125);
     margin-bottom: 0;
     margin-right: 15px;
